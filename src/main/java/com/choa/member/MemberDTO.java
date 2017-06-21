@@ -7,8 +7,8 @@ public class MemberDTO {
 		private String name;
 		private int age;
 		private String grade;
-		private String fname;
-		private String oname;
+		private String fileName;
+		private String oriName;
 		public String getId() {
 			return id;
 		}
@@ -39,17 +39,17 @@ public class MemberDTO {
 		public void setGrade(String grade) {
 			this.grade = grade;
 		}
-		public String getFname() {
-			return fname;
+		public String getfileName() {
+			return fileName;
 		}
-		public void setFname(String fname) {
-			this.fname = fname;
+		public void setfileName(String fileName) {
+			this.fileName = fileName;
 		}
-		public String getOname() {
-			return oname;
+		public String getoriName() {
+			return oriName;
 		}
-		public void setOname(String oname) {
-			this.oname = oname;
+		public void setoriName(String oriName) {
+			this.oriName = oriName;
 		}
 		
 		

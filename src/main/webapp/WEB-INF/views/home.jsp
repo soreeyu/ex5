@@ -8,6 +8,8 @@
 <h1>
 	Hello world!  
 </h1>
+<a href="member/memberJoin">StudentJoin</a>
+	<a href="member/memberJoin">TeacherJoin</a>
 
 <P>  The time on the server is ${serverTime}. </P>
 </body>
