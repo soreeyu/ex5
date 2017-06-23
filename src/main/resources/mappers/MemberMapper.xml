@@ -10,6 +10,8 @@
   		insert into member values(#{id},#{pw},#{name},#{age},#{grade},#{fileName},#{oriName})
   	</insert>
   	
-
+	<select id="loginMember" parameterType="com.choa.member.MemberDTO" resultType="com.choa.member.MemberDTO">
+		select * from member where id=#{id} and pw= #{pw}
+	</select>
   	
   </mapper>
